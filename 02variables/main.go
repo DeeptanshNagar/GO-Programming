@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
+// public
+const LoginToken string = "Hakuna-Matata" // In this example, LoginToken starts with a capital 'L'. This capital letter has significance - it indicates that the identifier is public and can be accessed from other packages.
+// it is same like public static final String LOGIN_TOKEN = "Hakuna-Matata"; as per Java.
+
+// public in java is equivalent to Capital first letter in Go
+// final in java is equivalent to const in Go
+// static -> Package-level declaration
+// String -> string
+
 func main() {
 	var username string = "deeptansh"
 	fmt.Println(username)
@@ -59,5 +68,8 @@ func main() {
 	// := (You are only allowed to use the walrus operator (:=) inside methods/functions.)
 	fmt.Println(numberOfUser)
 
+	fmt.Println()
 
+	fmt.Println(LoginToken)
+	fmt.Printf("Variable is of type: %T \n", LoginToken)
 }
