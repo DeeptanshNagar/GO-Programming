@@ -2,7 +2,7 @@
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![GitHub stars](https://img.shields.io/github/stars/DeeptanshNagar/GO-Programming?style=flat-square)
-![License](https://img.shields.io/github/license/DeeptanshNagar/GO-Programming?style=flat-square)
+![License]([https://img.shields.io/github/license/DeeptanshNagar/GO-Programming?style=flat-square](https://github.com/DeeptanshNagar/GO-Programming))
 
 My personal collection of Go programs as I explore this awesome language. Started as a learning repo, but it's grown into something I'm genuinely proud of. If you're learning Go too, hopefully this helps!
 
