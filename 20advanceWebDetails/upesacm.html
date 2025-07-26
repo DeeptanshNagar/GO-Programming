@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPES ACM & ACM-W Student Chapters</title>
+  <meta name="title" content="UPES ACM and ACM-W Student Chapters">
+  <meta name="description" content="UPES ACM Student Chapter Website">
+  <link rel="shortcut icon" href="./assets/images/acm & acm-w.png" type="image/acm" >
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <style>
+    .swiper-container {
+      width: 100%;
+      overflow: hidden;
+    }
+    .swiper-slide {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .blog-card {
+      flex: 0 0 calc(50% - 20px);
+      max-width: calc(50% - 20px);
+      background-color: #f8f8f8;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    
+    .blog-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  /* Set the aspect ratio */
+  aspect-ratio: 2 / 1;
+}
+    .blog-card-content {
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/acmlogoo.png" width="100" height="8" alt="acm logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="" class="logo">
+            <img src="./assets/images/acmlogoo.png" width="120" height="20" alt="ACM and ACM-W logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#initiatives" class="navbar-link" data-nav-link>Our Initiatives</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="team.html" class="navbar-link" data-nav-link>Our Team</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          
+
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+
+        <a href="https://www.upesacmw.org/" class="btn has-before">
+          <span class="span">Visit UPES ACM-W</span>
+
+          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+    style="background-image: url('./assets/images/mainbg.png'); height: 800px; transform: scale(0.9);" >
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title" style="font-size: 90px;">
+              Welcome to<span class="span">UPES ACM</span>
+            </h1>
+
+            <p class="hero-text" style="font-size: 30px;">
+              The Largest Computing Society, now at UPES.
+            </p>
+
+            <a href="https://konfhub.com/checkout/upesacm-acmw-registration?ticketId=8618" target="_blank" class="btn has-before">
+              <span class="span" style="font-size: 25px; align-content: center;">Join Now!</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <!--<div class="img-holder one" style="--width: 270; --height: 300;">
+              <img src="./assets/images/index_bg.png" width="270" height="300" alt="hero banner" class="img-cover">
+            </div>
+
+            <div class="img-holder two" style="--width: 240; --height: 370;">
+              <img src="./assets/images/coverphoto.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+            </div>-->
+
+            <!--<img src="./assets/images/hero-shape-1.svg" width="380" height="190" alt="" class="shape hero-shape-1">-->
+
+            <!--<img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">-->
+
+          </figure>
+
+        </div>
+      </section>
+      <!-- 
+        - #OurCommittees
+      -->
+
+      <section class="section category" id="committee" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Our Committees</p>
+
+          <h2 class="h2 section-title">
+            A Force Called <span class="span"> ACM</span>.
+          </h2>
+
+          <p class="section-text">
+            PERSEVERANCE. DEDICATION. GROWTH.
+          </p>
+
+          <ul class="grid-list">
+
+            <li class="list-it">
+              <div class="category-card" style="--color: 170, 75%, 41%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Technical</a>
+                </h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  The Chapter's backbone,  the Technical Team not only designs the websites and apps for the Chapter,  but also propogates the culture of coding across entire UPES   and works on projects that help students learn.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="list-it">
+              <div class="category-card" style="--color: 351, 83%, 61%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-2.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Events</a>
+                </h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  The brain of the chapter, organizes a variety of events, our vivacious team. Through creative concepts and flawless event execution, the Events team makes sure that attendees enjoy every minute from conception to conclusion.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="list-it">
+              <div class="category-card" style="--color: 229, 75%, 58%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-3.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Public Relations & Sponsorship</a>
+                </h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  This committee is the face of the chapter. The PR and Sponsorship team puts in immeasurable efforts to secure sponsorships for the events, responds to inquiries, and tries to increase the chapter’s.
+                </p>
+              </div>
+            </li>
+
+            <li class="list-it">
+              <div class="category-card" style="--color: 42, 94%, 55%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-4.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Design & VFX</a>
+                </h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  This distinguished committee is the creative house of the chapters. This team always leads the forefront by making breathtaking videos and developing visually appealing graphic material.
+                </p>
+
+              </div>
+            </li>
+            <li class="list-it">
+              <div class="category-card" style="--color: 351, 83%, 61%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-2.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Editorial</a>
+                </h3>
+
+                <p class="card-text">
+                  The Editorial Committee is the brainchild behind the Chapter's all formal communications, blogs, social media content and document all the daily proceedings. This teams gives life to everything you see or read about UPES ACM.
+                </p>
+
+              </div>
+            </li>
+            <li class="list-it">
+              <div class="category-card" style="--color: 229, 75%, 58%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-3.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Corporate Social Responsibility</a>
+                </h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  Being the reflection of the chapter’s ethics and deeds, the CSR committee curates activities that help contribute to the upliftment of society. It promotes education, and vocational skills among young children.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="list-it">
+              <div class="category-card" style="--color: 42, 94%, 55%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-4.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Operations</a>
+                </h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  The Operations committee works behind the scenes to ensure the smooth functioning of every event or activity of the chapters. This team provides back-end support to every other committee by managing all the arrangements flawlessly.
+                </p>
+
+              </div>
+            </li>
+
+            <!-- <li class="list-it">
+              <div class="category-card" style="--color: 170, 75%, 41%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="committee logo" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Social Media</a>
+                </h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  The Social Media Committee is responsible for innovatively using social media platforms as a means to connect and engage members, grow the membership base, and come up with strategies to increase the chapters’ social media presence.
+                </p>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+            <div class="about-banner">
+              <div class="img-carousel">
+                <img src="./assets/images/coverphoto.jpg" alt="image 1" class="img-slide">
+                <img src="./assets/images/valo.JPG" alt="image 2" class="img-slide">
+                <img src="./assets/images/img3.jpg" alt="image 3" class="img-slide">
+                <img src="./assets/images/img1.jpg" alt="image 4" class="img-slide">
+                <img src="./assets/images/img2.jpg" alt="image 5" class="img-slide">
+              </div>
+              
+              <div class="radio-buttons"></div>
+            </div>
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">
+              One of the Best<span class="span">Student Chapters</span>since 10 Years.
+            </h2>
+
+            <p class="section-text">
+              We work round-the-clock to hone the adroit programmer in our members through many events, workshops, fests, contests, and talks all year long. Our student body is headed by confident and proficient members who work seamlessly for this cause.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Complete Holistic Development</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Guided Mentorship from Seniors</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Community Access, Coding classes, Projects etc.</span>
+              </li>
+
+            </ul>
+
+           <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+              class="shape about-shape-4">
+
+          </div>
+
+        </div>
+      </section>
+      <!-- 
+        - #Initiatives
+      -->
+
+      <section class="section course" id="initiatives" aria-label="course">
+        <div class="container">
+
+          <p class="section-subtitle">OUR INITIATIVES</p>
+
+          <h2 class="h2 section-title">Get a head-start in your technical journey.🚀</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/valo.JPG" width="370" height="220" loading="lazy"
+                    alt="21 DOC" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">21 Days of Code</a>
+                  </h3>
+
+                  <p class="rating-text">We launched 21 Days of Code to promote the environment for competitive programming and instil coding as second nature and a daily habit for 21 regular days.
+
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">10+ Mentors</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">100+ Students</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/img3.jpg" width="370" height="220" loading="lazy"
+                    alt="Code Anytime" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Code Anytime</a>
+                  </h3>
+
+                    <p class="rating-text">Code Anytime is our round-the-year initiative to encourage free-spirited coding among beginners to amplify their passion for programming.</p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">15+ Mentors</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">200+ Students Students</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+             <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/img2.jpg" width="370" height="220" loading="lazy"
+                    alt="Hour of Code" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Hour of Code</a>
+                  </h3>
+
+                    <p class="rating-text">The CSR team puts their words to action, and brings smiles across the faces of the underprivileged society. The team makes the activities as interactive as possible.</p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <!--<ion-icon name="library-outline" aria-hidden="true"></ion-icon>-->
+
+                      <span class="span"></span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">100+ Students</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="video has-bg-image" aria-label="video"
+      style="background-image: url('./assets/images/video-bg.png')">
+      <div class="container">
+          <div class="video-card">
+              <div class="video-banner img-holder has-after" style="--width: 320px; --height: 180px;">
+                  <video src="assets/images/GGJ Wrap (1).mp4" autoplay loop muted></video>
+              </div>
+          </div>
+      </div>
+  </section>
+      <!-- 
+        - #STATE
+      -->
+
+      <section class="section stats" aria-label="stats">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="stats-card" style="--color: 170, 75%, 41%">
+                  <h3 class="card-title">13+</h3>
+                  <p class="card-text"style="font-weight: bold;">Years in the Game!</p>
+              </div>
+          </li>
+          <li>
+              <div class="stats-card" style="--color: 351, 83%, 61%">
+                  <h3 class="card-title">600+</h3>
+                  <p class="card-text"style="font-weight: bold;">Members (for 2024-25)</p>
+              </div>
+          </li>
+          <li>
+              <div class="stats-card" style="--color: 260, 100%, 67%">
+                  <h3 class="card-title">150+</h3>
+                  <p class="card-text" style="font-weight: bold;">Events Conducted</p>
+              </div>
+          </li>
+          <li>
+              <div class="stats-card" style="--color: 42, 94%, 55%">
+                  <h3 class="card-title" >5+</h3>
+                  <p class="card-text" style="font-weight: bold;">Awards</p>
+              </div>
+          </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+        - #BLOG
+      -->
+      <section class="section blog has-bg-image" id="blog" aria-label="blog" style="background-image: url('./assets/images/blog-bg.svg')">
+  <div class="container">
+    <p class="section-subtitle">Hey Fam!</p>
+    <h2 class="h2 section-title">Look What Our Executives Have to Say</h2>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Blog Cards -->
+        <div class="swiper-slide">
+          <div class="blog-card">
+            <figure class="card-banner img-holder has-after" style="--width: 185px; --height: 185px;">
+              <img src="./assets/images/coverphoto.jpg" width="185" height="185" loading="lazy" alt="image" class="img-cover">
+            </figure>
+            <div class="blog-card-content">
+              <h3 class="h3" style="margin-bottom: 10px;">Pankaj Badoni, Faculty Coordinator</h3>
+              <p style="text-align: justify;">It has been over 7 years since I joined UPES ACM-W, and these past few years have been exciting and extremely successful for us. We have won several national and international awards for our hard work. Our annual event, Prodigy, has been a massive success for the past five years and I'm proud to say that UPES ACM hasn't ever hesitated from helping whenever possible, which can be seen in our outstanding CSR events and the collaborations we have. Being a part of ACM ensures that everyone can showcase what they're good at and constantly evolve. We strive to create a better environment for our members with every action of ours.</p>
+            </div>
+          </div>
+          <div class="blog-card">
+            <figure class="card-banner img-holder has-after" style="--width: 185px; --height: 185px;">
+              <img src="./assets/images/Sangam Khanna.jpg" width="185" height="185" loading="lazy" alt="image" class="img-cover" style="object-position: center 35%;">
+            </figure>
+            <div class="blog-card-content">
+              <h3 class="h3" style="margin-bottom: 10px;">Sangam Khanna, Chairperson</h3>
+              <p style="text-align: justify;">I have been associated with the chapter since my first year in college. It's been almost two years now, and the journey has been great. From being the core committee member to the PR & Sponsorship Head and now representing the chapter as the Chairperson, has been really wonderful. UPES ACM & ACM-W is not only a student chapter but a family that brings the best out of you. We organize a variety of events ranging from technical, fun-tech and gaming events. Our coding initiatives such as the 21 Days of Code, Code Anytime and Spy-C have had great impact on the university students. We aim at coming together, being dedicated, growing together and contributing to the technical fraternity for the years to come.
+</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="blog-card">
+            <figure class="card-banner img-holder has-after" style="--width: 185px; --height: 185px;">
+              <img src="./assets/images/Tanay Prabhakar.jpg" width="185" height="185" loading="lazy" alt="image" class="img-cover" style="object-position: center 40%;">
+            </figure>
+            <div class="blog-card-content">
+              <h3 class="h3" style="margin-bottom: 10px;">Tanay Prabhakar, Vice-Chairperson</h3>
+              <p style="text-align: justify;">Upon my college arrival, the UPES-ACM Student Chapter warmly embraced me, alleviating overwhelming challenges. It swiftly became a familial refuge, fostering belonging and support. Beyond membership, it meant embracing a culture of coding excellence and technical advancement. As I progressed through my academic journey, I transitioned from a core member to an office bearer and now proudly hold the position of vice chairperson in this esteemed chapter.
+                      Reflecting on this journey, it has been nothing short of extraordinary. My aspiration as a leader is to propel the UPES-ACM Student Chapter to unprecedented heights, leaving a legacy that transcends the remarkable one I inherited.
+</p>
+            </div>
+          </div>
+          <div class="blog-card">
+            <figure class="card-banner img-holder has-after" style="--width: 185px; --height: 185px;">
+              <img src="./assets/images/Daksh Mehrotra.jpeg" width="185" height="185" loading="lazy" alt="image" class="img-cover" style="object-position: center 35%;">
+            </figure>
+            <div class="blog-card-content">
+              <h3 class="h3" style="margin-bottom: 10px;">Daksh Mehrotra, Secretary</h3>
+              <p style="text-align: justify;"> My journey with UPES ACM has been nothing short of transformative. From stumbling upon a Technical event in my first year to becoming a core member and now Secretary, it's been an extraordinary ride. Joining UPES ACM was like finding a second home-a supportive family where I could overcome confusion and stage fright. It provided a platform to share ideas, hone leadership skills, and improve coding abilities through initiatives like Code Anytime. It's more than just a student chapter-it's a supportive community fostering growth and coding excellence. UPES ACM has shaped not only my academic journey but also my character and aspirations, providing a place where aspirations thrive and individuals are empowered to reach their full potential.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="blog-card">
+            <figure class="card-banner img-holder has-after" style="--width: 185px; --height: 185px;">
+              <img src="./assets/images/Advika Kaushik.jpg" width="185" height="185" loading="lazy" alt="image" class="img-cover" style="object-position: center 25%;">
+            </figure>
+            <div class="blog-card-content">
+              <h3 class="h3" style="margin-bottom: 10px;">Advika Kaushik, Joint Secretary</h3>
+              <p style="text-align: justify;">Joining UPES ACM was a turning point for me. I landed a spot on the VFX committee, leading the team as VFX Head. Now, I'm honored to serve as the chapter secretary. It's been a rollercoaster ride, filled with learnings. The positive and challenging work environment proved to be a fantastic combination for growth. I've broken out of my shell, becoming a more confident communicator.  From the initial steps to the leadership responsibilities, this journey within UPES ACM has been incredibly rewarding and instrumental in developing my teamwork and leadership skills. I'm incredibly grateful for the community, the challenges, and the friendships I've made along the way.</p>
+            </div>
+          </div>
+          <div class="blog-card">
+            <figure class="card-banner img-holder has-after" style="--width: 185px; --height: 185px;">
+              <img src="./assets/images/Rudransh Sogani.JPG" width="185" height="185" loading="lazy" alt="image" class="img-cover" style="object-position: center 35%;">
+            </figure>
+            <div class="blog-card-content">
+              <h3 class="h3" style="margin-bottom: 10px;">Rudransh Sogani, Treasurer</h3>
+              <p style="text-align: justify;">When I was exposed to ACM and the ACM-W student organisation at UPES, my programming career had just started. Where I used to frequently get confused between the fundamentals of coding, activities like 21 Days of Code, Code Anytime, and Spy C increased my confidence in coding, that's when I decided to continue my career with ACM and the ACM-W student chapter. Being a part of ACM-W gives me a great deal of pleasure because what more could you ask for from a student chapter than a chapter that teaches you a lot about your skill, and not just the skill, but how to deal with public relations, how to organise events as a team, and much more. I'm happy to be a part of this vibrant student chapter.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt="" class="shape blog-shape">
+  </div>
+</section>
+
+<!-- ...existing HTML code... -->
+
+<!-- Place this JavaScript *after* Swiper is loaded -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    autoplay: {
+      delay: 4000,
+      pauseOnMouseEnter: true,
+      pauseOnMouseLeave: true,
+    },
+    breakpoints: {
+      // When window width is >= 0px (i.e., mobile), show 1 card per slide
+      0: {
+        slidesPerView: 1
+      },
+      // When window width is >= 768px, show 2 cards per slide
+      768: {
+        slidesPerView: 2
+      }
+    }
+  });
+</script>
+
+<!-- Add this CSS to your file, or in a <style> tag, to ensure card layout stacks for one per row on mobile -->
+<style>
+@media (max-width: 767px) {
+  .swiper-slide {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .blog-card {
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+    margin-bottom: 20px;
+  }
+}
+</style>
+    </article>
+  </main>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/acm & acm-w.png" width="162" height="50" alt="ACM & ACM-W Logo">
+          </a>
+
+          <p class="footer-brand-text">
+            We thrive for technical advancement!
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">Energy Acres, Bidholi</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+919818185831" class="footer-link">+91 9818185831</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@eduweb.com" class="footer-link">upesacm@gmail.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="team.html" class="footer-link">Team members</a>
+          </li>
+
+          <li>
+            <a href="#committee" class="footer-link">Our Committees</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="https://konfhub.com/checkout/upesacm-acmw-registration?ticketId=8618" class="footer-link">Sign In/Registration</a>
+          </li>
+
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Contacts</p>
+
+          <p class="footer-list-text">
+            Enter your email address to register to our newsletter subscription
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/upesacm/" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/company/upesacm/?originalSubdomain=in" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/upesacm/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/upesacm?lang=en" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/c/UPESACMstudentchapter" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2025 All Rights Reserved by <a href="#" class="copyright-link">UPES ACM and ACM-W Student Chapter</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+    <script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    autoplay: {
+      delay: 4000,
+      pauseOnMouseEnter: true,
+      pauseOnMouseLeave: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2
+      }
+    }
+  });
+</script>
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      autoplay: {
+      delay: 4000, // Change the delay value (in milliseconds) as per your requirement
+      pauseOnMouseEnter: true,
+      pauseOnMouseLeave: true,
+    },
+    });
+  </script>
+
+</body>
+</html>
