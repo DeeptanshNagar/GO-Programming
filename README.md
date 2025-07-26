@@ -33,9 +33,9 @@ go mod tidy && go run .
 
 Started with zero Go knowledge and fell in love with its simplicity. Here's how I structured my learning:
 
-1. **Week 1-2**: Syntax, basic types, functions
-2. **Week 3-4**: Structs, interfaces, error handling  
-3. **Week 5-6**: Goroutines, channels, real concurrency
+1. **Day 1-2**: Syntax, basic types, functions
+2. **Day 3-4**: Structs, interfaces, error handling  
+3. **Day 5-6**: Goroutines, channels, real concurrency
 4. **Ongoing**: Web servers, databases, performance optimization
 
 ### Things I Learned the Hard Way
@@ -99,9 +99,7 @@ Just follow basic Go conventions and add tests where it makes sense.
 ## 📊 Current Stats
 
 - **50+ Examples** across different difficulty levels
-- **8 Complete Projects** you can actually run and use  
-- **Well Commented** because future me will forget everything
-- **Tested** where it matters (still learning this part)
+- **Progress** Still a begginer and mastering it to advance level.
 
 ## 🎯 What's Next
 
@@ -120,4 +118,4 @@ Currently working on:
 
 ⭐ **Star this repo if it helped you learn Go!** It means a lot and motivates me to keep adding more examples.
 
-*Started this journey in 2024 - still going strong! 🎉*
+*Started this journey in 2025 - still going strong! 🎉*
