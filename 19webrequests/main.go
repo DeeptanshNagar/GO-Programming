@@ -1,6 +1,6 @@
 /**
  * -------------------------------------------------------------------
- * Program Title : Getting HTML of UPES-ACM or any other url domain
+ * Program Title : Getting HTML code of UPES-ACM or any other url domain
  * Author        : Deeptansh Nagar
  * Language      : Go
  * Date          : 26th July 2025
