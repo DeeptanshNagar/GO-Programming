@@ -2,7 +2,7 @@
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![GitHub stars](https://img.shields.io/github/stars/DeeptanshNagar/GO-Programming?style=flat-square)
-![License]([https://img.shields.io/github/license/DeeptanshNagar/GO-Programming?style=flat-square](https://github.com/DeeptanshNagar/GO-Programming))
+![License](https://img.shields.io/github/license/DeeptanshNagar/GO-Programming?style=flat-square)
 
 My personal collection of Go programs as I explore this awesome language. Started as a learning repo, but it's grown into something I'm genuinely proud of. If you're learning Go too, hopefully this helps!
 
@@ -33,9 +33,9 @@ go mod tidy && go run .
 
 Started with zero Go knowledge and fell in love with its simplicity. Here's how I structured my learning:
 
-1. **Day 1-2**: Syntax, basic types, functions
-2. **Day 3-4**: Structs, interfaces, error handling  
-3. **Day 5-6**: Goroutines, channels, real concurrency
+1. **Week 1-2**: Syntax, basic types, functions
+2. **Week 3-4**: Structs, interfaces, error handling  
+3. **Week 5-6**: Goroutines, channels, real concurrency
 4. **Ongoing**: Web servers, databases, performance optimization
 
 ### Things I Learned the Hard Way
@@ -120,4 +120,4 @@ Currently working on:
 
 ⭐ **Star this repo if it helped you learn Go!** It means a lot and motivates me to keep adding more examples.
 
-*Started this journey in 2025 - still going strong! 🎉*
+*Started this journey in 2024 - still going strong! 🎉*
