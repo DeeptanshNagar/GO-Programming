@@ -14,15 +14,15 @@ func main() {
 
 	file, err := os.Create("./mylcogofile.txt")
 	
-	if err != nil {
-		panic(err)
-	}
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// use this as alternative -
+	checkNilErr(err)
 
 	length, err  := io.WriteString(file, content)
 
-	if err != nil {
-		panic(err)
-	}
+	checkNilErr(err)
 
 	fmt.Println("length is: ", length)
 	defer file.Close()
@@ -32,9 +32,7 @@ func main() {
 // Reading the file 
 func readFile(filename string) {
 	databyte, err := ioutil.ReadFile(filename) // file isnt being read in string format, its being read in byte format.
-	if err != nil {
-		panic(err)
-	}
+	checkNilErr(err)
 
 	// fmt.Println("Text data inside the file is \n", databyte)
 	fmt.Println("Text data inside the file is \n", string(databyte))
